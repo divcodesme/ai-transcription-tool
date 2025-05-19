@@ -1,0 +1,13 @@
+[project]
+name = "transcriptor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "ollama>=0.4.8",
+    "openai-whisper>=20240930",
+    "streamlit>=1.45.1",
+]
